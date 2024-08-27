@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367426742049",
+    "project_id": "safeconnect-8702d",
+    "storage_bucket": "safeconnect-8702d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367426742049:android:ed7b9afae625cc8a370060",
+        "android_client_info": {
+          "package_name": "com.safeconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB96R76aUiCBO4WdaWgEGsoi8r_rjJtrpQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
