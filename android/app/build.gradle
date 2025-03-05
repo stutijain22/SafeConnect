@@ -52,6 +52,9 @@ react {
     // hermesFlags = ["-O", "-output-source-map"]
 }
 
+project.ext.react = [
+    enableHermes: true
+]
 /**
  * Set this to true to Run Proguard on Release builds to minify the Java bytecode.
  */
@@ -80,8 +83,8 @@ android {
         applicationId "com.safeconnect"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
-        versionName "1.0"
+        versionCode 6
+        versionName "1.1"
         missingDimensionStrategy 'react-native-camera', 'general' 
     }
     signingConfigs {
@@ -123,4 +126,3 @@ dependencies {
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle")
 apply plugin: 'com.google.gms.google-services'; applyNativeModulesAppBuildGradle(project)
-// apply plugin: 'com.google.gms.google-services'; applyNativeModulesAppBuildGradle(project)
